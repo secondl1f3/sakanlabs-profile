@@ -88,44 +88,59 @@ function Hero() {
     <section className="relative overflow-hidden">
       <Container className="grid md:grid-cols-2 gap-10 py-16 md:py-24 items-center">
         <div>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight" style={{ color: brand.teal }}>
-            Jasa Pembuatan Website <span style={{ color: brand.gold }}>Bersih</span> & Profesional
+          <h1
+            className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight"
+            style={{ color: brand.teal }}
+          >
+            Spesialis <span style={{ color: brand.gold }}>Aplikasi Web Custom</span>
+            <br className="hidden sm:block" />
+            untuk Operasional & Scale Bisnis
           </h1>
+
           <p className="mt-5 text-base sm:text-lg text-slate-600 max-w-prose">
-            Kami membangun website cepat, aman, dan mudah dikelola. Fokus pada hasil bisnis: tampilan rapi, SEO-mantap, dan performa tinggi.
+            Kami merancang dan membangun <strong>aplikasi web tailor-made</strong>—workflow, dashboard,
+            integrasi API, hingga automasi dokumen. Kami juga melayani pembuatan{" "}
+            <strong>website company profile</strong> bila dibutuhkan.
           </p>
+
           <div className="mt-6 flex flex-wrap gap-3">
             <a
-              href="#pricing"
-              className="inline-flex items-center rounded-xl bg-[--teal] px-4 py-2 text-sm font-medium text-white shadow-sm"
+              href="https://wa.me/6281291535163?text=Halo%20SakanLabs%2C%20saya%20ingin%20diskusikan%20aplikasi%20web%20custom."
+              className="inline-flex items-center rounded-xl px-4 py-2 text-sm font-medium text-white shadow-sm"
               style={{ background: brand.teal }}
             >
-              Lihat Paket
+              Diskusikan Proyek
             </a>
             <a
-              href="https://wa.me/6281291535163?text=Halo%20SakanLabs%2C%20tolong%20analisis%20kebutuhan%20website%20saya."
+              href="#work"
               className="inline-flex items-center rounded-xl border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-900 hover:bg-slate-50"
             >
-              Audit Website Gratis →
+              Lihat Portofolio →
             </a>
           </div>
+
           <ul className="mt-6 grid sm:grid-cols-2 gap-2 text-sm text-slate-600">
-            <li>✔️ Desain custom & responsif</li>
-            <li>✔️ SEO dasar & struktur konten</li>
-            <li>✔️ Hosting & domain opsional</li>
-            <li>✔️ Garansi minor fix 30 hari</li>
+            <li>✔️ Workflow kustom, role & approval</li>
+            <li>✔️ Integrasi API (payment, ERP, WhatsApp, dll.)</li>
+            <li>✔️ Dashboard KPI & laporan realtime</li>
+            <li>✔️ Opsional: Website company profile & SEO dasar</li>
           </ul>
         </div>
+
         <div className="relative">
           <div className="aspect-[4/3] rounded-2xl border border-slate-200 bg-white shadow-sm overflow-hidden">
             <MockBrowser />
           </div>
-          <div className="absolute -right-3 -bottom-3 h-24 w-24 rounded-2xl opacity-20" style={{ background: brand.gold }} />
+          <div
+            className="absolute -right-3 -bottom-3 h-24 w-24 rounded-2xl opacity-20"
+            style={{ background: brand.gold }}
+          />
         </div>
       </Container>
     </section>
   );
 }
+
 
 function Trustbar() {
   const clients = [
